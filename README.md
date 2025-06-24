@@ -2,6 +2,8 @@
 
 An autonomous AI-powered research agent that performs deep, multi-step research on complex topics and generates comprehensive reports with verifiable citations.
 
+This is a personal project in an attempt to understand how deep research agents work.
+
 Different AI systems were used in the planning and building of this agent.
 
 ## 🌟 Features
