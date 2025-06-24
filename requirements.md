@@ -299,9 +299,9 @@ TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 
 # Model configurations
-PLANNER_MODEL = "gpt-4-turbo"
-EXECUTOR_MODEL = "gpt-4-turbo"
-SYNTHESIS_MODEL = "gpt-4-turbo"
+PLANNER_MODEL = "gpt-4.1-mini-2025-04-14"
+EXECUTOR_MODEL = "gpt-4.1-mini-2025-04-14"
+SYNTHESIS_MODEL = "gpt-4.1-mini-2025-04-14"
 
 # Vector DB configuration
 PINECONE_INDEX_NAME = "research-agent-ltm"

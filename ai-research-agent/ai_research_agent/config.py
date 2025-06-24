@@ -22,10 +22,10 @@ class Config:
     PINECONE_API_KEY: Optional[str] = os.getenv("PINECONE_API_KEY")
     
     # Model configurations
-    PLANNER_MODEL: str = "gpt-4-turbo"
-    EXECUTOR_MODEL: str = "gpt-4-turbo"
-    SYNTHESIS_MODEL: str = "gpt-4-turbo"
-    REASONING_MODEL: str = "gpt-4-turbo"
+    PLANNER_MODEL: str = "gpt-4.1-mini-2025-04-14"
+    EXECUTOR_MODEL: str = "gpt-4.1-mini-2025-04-14"
+    SYNTHESIS_MODEL: str = "gpt-4.1-mini-2025-04-14"
+    REASONING_MODEL: str = "gpt-4.1-mini-2025-04-14"
     
     # Vector DB configuration
     PINECONE_INDEX_NAME: str = "research-agent-ltm"
