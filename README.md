@@ -2,6 +2,8 @@
 
 An autonomous AI-powered research agent that performs deep, multi-step research on complex topics and generates comprehensive reports with verifiable citations.
 
+Different AI systems were used in the planning and building of this agent.
+
 ## 🌟 Features
 
 - **Autonomous Research**: Conducts thorough research across multiple sources
@@ -271,6 +273,57 @@ uv add --dev pytest pytest-asyncio
 
 # Run tests
 uv run pytest tests/
+```
+
+## Current status:
+
+This agent does infact work. However, there are some existing issues. Results from first query `Research Query: How is Ai being used in healthcare?`
+
+```markdown
+📄 **Executive Summary:**
+This research report investigates how artificial intelligence (AI) is currently being utilized in healthcare, with the objective of providing a comprehensive overview of AI applications, adoption trends, benefits, challenges, and future directions based on recent (2023–2024) academic and industry sources. The study synthesizes data from structured datasets, market reports, case studies, and expert analyses to capture the evolving landscape of AI integration across clinical and operational domains.
+
+Key findings reveal that AI is rapidly transforming healthcare through diverse applications such as predictive analytics, diagnostic enhancement, personalized treatment, and automation of routine tasks. AI-powered predictive models analyze patient data to forecast disease progression and optimize treatment plans, while diagnostic tools leveraging image recognition improve accuracy and speed in radiology, pathology, and other specialties. Additionally, AI automates administrative workflows, enabling clinicians to focus more on patient care. Adoption rates are highest in medical imaging, with approximately 90% of healthcare organizations employing AI tools, though patient and clinician acceptance varies.
+
+The most important insights highlight AI’s dual impact on improving clinical outcomes and operational efficiency. AI-driven diagnostics and precision medicine contribute to earlier disease detection and tailored therapies, enhancing patient care quality. Meanwhile, automation reduces clinician workload and healthcare costs. However, challenges remain, including cautious patient attitudes toward AI-driven diagnoses and the need for regulatory frameworks to ensure ethical and safe AI deployment.
+
+Implications of these findings suggest that AI will continue to play a pivotal role in shaping the future of healthcare by enabling more proactive, personalized, and efficient care delivery. Healthcare providers and policymakers must address adoption barriers, foster trust through transparency, and invest in AI literacy and infrastructure to fully realize AI’s transformative potential. Continued research and collaboration across stakeholders will be essential to navigate ethical considerations and optimize AI integration for improved health outcomes.
+
+🔍 **Key Findings:**
+## Findings
+
+This section presents a comprehensive synthesis of current research and data on the use of artificial intelligence (AI) in healthcare, organized by key thematic areas: applications, adoption and impact, benefits, challenges, and future directions. The findings draw primarily from recent (2023–2024) market reports, academic whitepapers, industry analyses, and case studies, including insights from Grand View Research, Medwave, Statista, and TempDev.
+
+---
+
+### 1. Key Applications of AI...
+
+💡 **Conclusions:**
+**Conclusions**
+
+This research has demonstrated that artificial intelligence (AI) is playing an increasingly transformative role in healthcare as of 2024, with widespread adoption across clinical, operational, and administrative domains. The key findings reveal that AI applications are diverse and impactful, primarily encompassing predictive analytics, diagnostic enhancement, personalized treatment, and workflow automation. These technologies leverage vast datasets—including electronic health records, medical imaging, and genomics—to improve accuracy, efficiency, and patient outcomes.
+
+In addressing the original research question, it is clear that AI is being used not only to augment clinical decision-making through improved diagnostics and risk prediction but also to streamline healthcare delivery by automating routine tasks such as scheduling and documentation. The integration of AI into precision medicine enables tailored therapies based on individual patient profiles, marking a significant advancement toward personalized care.
+
+Several patterns and trends emerge from the analysis. Imaging and radiology remain the leading sectors for AI adoption, with a high percentage of healthcare organizations implementing AI tools. While clinicians generally recognize the benefits of AI in reducing administrative burdens, patient acceptance of AI-driven diagnostics is more cautious, highlighting a gap between technological capability and user trust. Additionally, AI’s role in predictive analytics is expanding, facilitating proactive interventions and resource optimization.
+
+The implications of these findings are multifaceted. AI has the potential to enhance healthcare quality and accessibility, reduce costs, and alleviate clinician workload. However, challenges such as ethical considerations, data privacy, algorithmic transparency, and patient trust must be addressed to ensure responsible and equitable AI deployment. Furthermore, the mixed attitudes among healthcare providers and patients underscore the need for education and transparent communication about AI’s capabilities and limitations.
+
+Future research should focus on longitudinal studies to assess the long-term clinical and economic impacts of AI integration, strategies to improve patient and provider acceptance, and the development of robust frameworks for ethical AI governance. Investigating AI’s role in underserved populations and low-resource settings could also provide valuable insights into reducing healthcare disparities. Lastly, continuous evaluation of AI algorithms for bias and accuracy will be essential to maintain safety and efficacy as these technologies evolve.
+
+In summary, AI is rapidly reshaping healthcare by enhancing diagnostics, personalizing treatment, and optimizing operations. While promising, its full potential will be realized only through careful management of technical, ethical, and social challenges, supported by ongoing research and stakeholder engagement.
+
+📚 **Citations:** 0 sources
+
+📈 **Report Statistics:**
+  - Word Count: 1602
+  - Generated: 2025-06-24 17:29:13
+  - Methodology: This research employed the following methodology:
+
+1. Multi-source information gathering and analysi...
+  - Steps Executed: 4
+  - Success Rate: 100.0%
+  - Total Time: 183.1s
 ```
 
 ## 📄 License

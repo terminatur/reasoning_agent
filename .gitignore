@@ -15,3 +15,7 @@
 **/coverage/
 **/.pytest_cache/
 **/.mypy_cache/
+
+**/.venv/
+.DS_Store
+.vscode/
