@@ -112,7 +112,7 @@ uv run python main.py "Climate change impacts" --strategy interleaved
 ### Python API
 
 ```python
-from src.agent import research_agent
+from ai_research_agent.agent import research_agent
 
 # Conduct research
 report = research_agent.research(

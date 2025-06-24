@@ -9,8 +9,8 @@ import sys
 import argparse
 from typing import Optional
 
-from src.agent import research_agent
-from src.config import config
+from ai_research_agent.agent import research_agent
+from ai_research_agent.config import config
 
 def run_research(query: str, strategy: str = "decomposition_first", export_format: str = "markdown") -> None:
     """

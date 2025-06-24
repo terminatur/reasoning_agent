@@ -554,7 +554,7 @@ class ResearchAgent:
 """
 Main entry point for the AI Research Agent.
 """
-from src.agent import ResearchAgent
+from ai_research_agent.agent import ResearchAgent
 
 def main():
     """
