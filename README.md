@@ -90,6 +90,9 @@ PINECONE_ENVIRONMENT=us-east-1
 ### Command Line Interface
 
 ```bash
+# Change working directory
+cd ai-research-agent
+
 # Basic research query
 uv run python main.py "Your research question"
 
@@ -240,7 +243,7 @@ The agent automatically selects the appropriate strategy based on task complexit
 
 2. **Import Errors**
    ```
-   ModuleNotFoundError: No module named 'src'
+   ModuleNotFoundError: No module named 'ai_research_agent'
    ```
    **Solution**: Run commands with `uv run python` from project root
 
